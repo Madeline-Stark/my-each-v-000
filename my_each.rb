@@ -7,5 +7,4 @@ def my_each (array)
     end
 
   end
-array[counter]
 end
