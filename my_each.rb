@@ -2,7 +2,7 @@ def my_each (array)
   if block_given?
     counter = 0
     while counter < array.length
-      yield
+      yield(array)
       counter += 1
     end
     array
