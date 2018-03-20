@@ -5,7 +5,6 @@ def my_each (array)
       yield
       counter += 1
     end
-
+    array
   end
-  array
 end
