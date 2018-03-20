@@ -6,5 +6,7 @@ def my_each (array)
       counter += 1
     end
     array
+  else
+    "This block should not run!"
   end
 end
